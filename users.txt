@@ -1,0 +1,11 @@
+User name:	Admin
+email:		admin@mail.com
+password:	admin123
+
+User name:	Sa
+email:		man@man.com
+password:	123123123
+
+User name:	Hex
+email:		anerios@index.test
+password:	123456789
