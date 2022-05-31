@@ -11,7 +11,7 @@
         <?php echo $login == true ? ' | login' : ''; ?>
     </title>
     <link rel="stylesheet" href="/views/template/css/normalize.css">
-    <link rel="stylesheet" href="/views/template/css/style.css">
+    <link rel="stylesheet" href="/views/template/css/style.css" id="theme">
     <link rel="icon" href="/views/template/img/favicon.ico" type="image/x-icon">
 </head>
 <body>

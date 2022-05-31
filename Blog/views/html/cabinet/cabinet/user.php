@@ -48,6 +48,10 @@
                 </div>
             <?php endif; ?>
 
+            <div class="dark-theme list-reset">
+                <p>Dark theme:  <input type="checkbox" class="checkbox-theme"></p>
+            </div>
+
         </div>
     </div>
 </section>

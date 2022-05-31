@@ -16,8 +16,8 @@
 }
 
 :root {
-    --accent-color: #5D71DD;
-    --dark-color: #2F2222;
+    --accent-color: #5d81ff;
+    --dark-color: #ffffff;
 }
 
 * {
@@ -38,15 +38,17 @@ body {
 
     font-family: "Futura PT", sans-serif;
     font-weight: 400;
-    background-color: #f1f1f1;
+    background-color: #0e0e0e;
 }
-
+p {
+    color: #FFFFFF;
+}
 body {
     overflow-y: auto;
 }
 body::-webkit-scrollbar {
     width: 10px;
-    background-color: #fff;
+    background-color: #0e0e0e;
 }
 body::-webkit-scrollbar-thumb {
     border-radius: 5px;
@@ -88,7 +90,7 @@ body::-webkit-scrollbar-thumb {
 .header {
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: #FFF;
+    background-color: #000000;
     position: sticky;
     top: 0;
     z-index: 3;
@@ -107,6 +109,8 @@ body::-webkit-scrollbar-thumb {
     margin-right: 10px;
 }
 .logotype {
+    background-color: #FFFFFF;
+    border-radius: 20px;
     display: flex;
     width: 24px;
     height: 24px;
@@ -170,11 +174,11 @@ body::-webkit-scrollbar-thumb {
     min-height: 260px;
     margin-bottom: 40px;
     border-radius: 20px;
-    background: #fff;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+    background: #000000;
+    box-shadow: 3px 3px 3px rgba(93, 129, 255, 0.1);
 }
 .post:hover {
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 3px 3px 3px rgba(93, 129, 255, 1);
 }
 .post__item {
 
@@ -183,7 +187,7 @@ body::-webkit-scrollbar-thumb {
     position: relative;
     z-index: 1;
     display: inline-block;
-    background: #f0f3ff;
+    background: #0e0e0e;
     padding: 10px 20px;
     font-size: 16px;
     line-height: 21px;
@@ -211,24 +215,26 @@ body::-webkit-scrollbar-thumb {
     grid-column: 1 span;
     padding: 40px;
     border-radius: 20px;
-    background: #fff;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+    background: #000000;
+    box-shadow: 3px 3px 3px rgba(93, 129, 255, 0.1);
     max-height: 560px;
 }
 .side-bar:hover {
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 3px 3px 3px rgba(93, 129, 255, 1);
 }
 .side-bar__item {
     margin-bottom: 5px;
 }
 .side-bar-title {
+    color: #FFFFFF;
     margin-bottom: 20px;
 }
 
 /*  footer 2.0  */
 .footer{
     margin-top: auto;
-    background: #ffffff;
+    background: #000000;
+    color: #FFFFFF;
 }
 .footer__container {
     text-align: center;
@@ -236,15 +242,16 @@ body::-webkit-scrollbar-thumb {
 
 /*  Login/Register form 2.0 */
 .login-form {
-    background: #ffffff;
+    background: #000000;
     width: 340px;
 
     margin: 5% auto;
     border-radius: 20px;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 3px 3px 3px rgba(93, 129, 255, 0.1);
     text-align: center;
 }
 .title-form {
+    color: #FFFFFF;
     padding-top: 60px;
     padding-bottom: 20px;
 }
@@ -283,11 +290,11 @@ body::-webkit-scrollbar-thumb {
 }
 .text-form {
     margin-top: 10px;
-    color: black;
+    color: #ffffff;
     padding-bottom: 40px;
 }
 .text-link {
-    color: black;
+    color: #ffffff;
 }
 .text-link:hover {
     color: var(--accent-color);
@@ -319,13 +326,16 @@ body::-webkit-scrollbar-thumb {
 .edit-form {
     padding: 40px;
     border-radius: 20px;
-    background: #fff;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+    background: #000000;
+    box-shadow: 3px 3px 3px rgb(93, 129, 255);
     margin: 0 auto;
     width: 50%;
     grid-column: 4 span;
 }
 .user-img {
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 5px;
     display: flex;
     width: 128px;
     height: 128px;
@@ -340,6 +350,7 @@ body::-webkit-scrollbar-thumb {
     border-radius: 5px;
     margin: 10px auto;
     outline: none;
+    color: #000000;
 }
 
 /*  Admin control */
@@ -362,7 +373,7 @@ body::-webkit-scrollbar-thumb {
     width: 100%;
     padding: 40px;
     border-radius: 20px;
-    background: #fff;
+    background: #000000;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
     color: var(--accent-color);
 }
@@ -377,13 +388,13 @@ body::-webkit-scrollbar-thumb {
 .pagination li {
     display: flex;
     margin: 0 40px 0 0;
-    background-color: #FFFFFF;
+    background-color: #000000;
     padding: 15px;
     border-radius: 10px;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 3px 3px 3px rgba(93, 129, 255, 0.1);
 }
 .pagination li:hover {
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 3px 3px 3px rgba(93, 129, 255, 1);
 }
 .active {
     border: 1px solid var(--accent-color);
@@ -407,7 +418,7 @@ body::-webkit-scrollbar-thumb {
         top: 0;
         z-index: 2;
         padding: 40px 0 5px 0;
-        background-color: #fff;
+        background-color: #000000;
     }
     .side-bar__item {
         display: flex;
